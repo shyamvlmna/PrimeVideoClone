@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif!important;-moz-osx-font-smoothing: grayscale;
+}
+
+/* top header */
+.header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    height: 50px;
+    padding: 16px 50px;
+    background-color: #1b242f;
+    color: white;
+    align-items: center;
+    z-index: 1;
+    
+}
+.head-nav{
+    display: flex;
+    justify-content: space-between; 
+    margin-right: 100px;
+}
+.link{
+    display: inline;
+    font-size: large;
+}
+.link a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;   
+}
+.logo-head img{
+    height: 60px;
+    cursor: pointer;
+    margin-top: -3px;
+}
+
+
+/* free trial section */
+.freeTrial{
+    display: flex;
+    flex-flow: row;
+    height: 700px;
+    z-index: -1;
+    background-color: black;
+}
+.leftSection{
+    line-height: 1.5;
+    position: absolute;
+    width: 50%;
+    color: white;
+}
+.leftSection h1{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.leftSection p{
+    margin-left: 40px;
+}
+.rightSection{
+    height: 100;   
+}
+.trialImg{
+    margin-left: 908px;
+    margin-top: 79px;
+}
+.leftSection{
+    padding: 110px 50px
+}
+.button{
+    margin-left: 38px;
+    margin-top: 16px;
+    display: flex;
+    background-color: #0f79af;
+    color: white;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 14px 20px;
+    width: 275px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #2e92c3;
+}
+.bottom.p{
+    margin-left: 82px;
+    font-size: 13px;
+    padding-top: 8px;  
+}
+.mid{
+    font-size: 24px;
+    padding-top: 30px;
+}
+.top{
+    font-size: 45px;
+    font-weight: 100;
+}
+
+
+/* channels section */
+.channels{
+    padding: 10px 95px;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftText{
+    width: 140%;
+}
+.leftText h1{
+    font-size: 45px;
+    font-weight: 100;
+    margin-top: 78px;
+}
+.leftText p{
+    line-height: 1.5;
+    font-size: 24px;
+    font-weight: 100;
+    margin-top: 60px;   
+}
+.channelBanner{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 8px;
+}
+.banner{
+    width: 250px;
+    height: 170px;
+    padding:3px 3px;
+    cursor: pointer;
+}
+.banner:hover{
+    background-color: #343434;
+}
+
+/* benefits section */
+.benefits{
+    padding: 10px 95px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 683px;
+    background-color: black;  
+}
+.benefitImg{
+    margin-right: -92px;
+}
+.benefitText{
+    color: white;
+    margin-top: 190px;
+}
+.benefitText h1{
+    font-size: 37px;
+    font-weight: 100;
+}
+.benefitText p{
+    line-height: 1.5;
+    font-size: 17px;
+    font-weight: 100;
+    padding-top: 32px;
+}
+
+
+/* fire stick section */
+
+.fireTv{
+    display: flex;
+    flex-direction: row;
+    height: 680px;
+    background-color: black;
+}
+
+.fireText{
+    color: white;
+    margin-top: 190px;  
+}
+.fireText h1{
+    font-size: 37px;
+    font-weight: 100;
+}
+.fireText p{
+    line-height: 1.5;
+    font-size: 17px;
+    font-weight: 100;
+    padding-top: 32px;
+}
+
+
+/* family section */
+
+.family{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 688px;
+    background-color:black;
+}
+.familyText{
+    color: white;
+    margin-top: 190px;
+    margin-right: 150px;
+}
+.familyText h1{
+    font-size: 37px;
+    font-weight: 100;
+}
+.familyText p{
+    line-height: 1.5;
+    font-size: 17px;
+    font-weight: 100;
+    padding-top: 32px;
+}
+
+.getStarted{
+    margin-top: 7%;
+    display: flex;
+    background-color: #0f79af;
+    color: white;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 14px 20px;
+    width: 275px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    height: 60px;
+}
+
+/* footer section */
+
+footer{
+    height: 120px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.foottext{
+    
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    color: #949494; 
+}
+.foottext a{
+    text-decoration: none;
+    color: #0f79af;
+}
+.footlinks{
+margin-right: 10px;
+}
