@@ -239,6 +239,11 @@
     height: 60px;
 }
 
+
+.getStarted:hover{
+    background-color: #2e92c3;
+}
+
 /* footer section */
 
 footer{
